@@ -12,21 +12,21 @@
     <title>Validate policy effectiveness :: Cost Management with IAM</title>
 
     
-    <link href="/css/nucleus.css?1652797705" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1652797705" rel="stylesheet">
-    <link href="/css/hybrid.css?1652797705" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1652797705" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1652797705" rel="stylesheet">
-    <link href="/css/auto-complete.css?1652797705" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1652797705" rel="stylesheet">
-    <link href="/css/theme.css?1652797705" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1652797705" rel="stylesheet">
+    <link href="/css/nucleus.css?1652797965" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1652797965" rel="stylesheet">
+    <link href="/css/hybrid.css?1652797965" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1652797965" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1652797965" rel="stylesheet">
+    <link href="/css/auto-complete.css?1652797965" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1652797965" rel="stylesheet">
+    <link href="/css/theme.css?1652797965" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1652797965" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1652797705" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1652797965" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1652797705"></script>
+    <script src="/js/jquery-3.3.1.min.js?1652797965"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1652797705"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1652797705"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1652797965"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1652797965"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1652797705"></script>
+<script type="text/javascript" src="/js/search.js?1652797965"></script>
 
     
   </div>
@@ -902,13 +902,47 @@
 <ol start="2">
 <li>Try setting Key pair or instance type.
 <ul>
-<li>You will see that you do not have permission to create EC2 instances in this Region.</li>
+<li>You will see that you do not have permission to create EC2 instances on this Region.</li>
 </ul>
 </li>
 </ol>
 <p><img src="/images/2-limit-region/0029.png?featherlight=false&amp;width=90pc" alt="CostGovernance"></p>
-<p>In this step, we have successfully created 1 EC2 instance with instance type <strong>t2.micro</strong> in Region Singapore. In the next section, we will try to restrict the creation of a specific instance type.</p>
-<p><img src="/images/2-limit-region/0027.png?featherlight=false&amp;width=90pc" alt="CostGovernance"></p>
+<ol start="3">
+<li>Return to the original Region before performing the next step.</li>
+</ol>
+<p><img src="/images/2-limit-region/0030.png?featherlight=false&amp;width=90pc" alt="CostGovernance"></p>
+<h4 id="delete-the-created-testserver">Delete the created testserver</h4>
+<ol>
+<li>Check you are in the correct Region initially.
+<ul>
+<li>Click <strong>Instances</strong>.</li>
+</ul>
+</li>
+</ol>
+<p><img src="/images/2-limit-region/0031.png?featherlight=false&amp;width=90pc" alt="CostGovernance"></p>
+<ol start="2">
+<li>At the list of EC2 instances.
+<ul>
+<li>Click to select <strong>testserver</strong>.</li>
+</ul>
+</li>
+</ol>
+<p><img src="/images/2-limit-region/0032.png?featherlight=false&amp;width=90pc" alt="CostGovernance"></p>
+<ol start="3">
+<li>Click <strong>Instance state</strong>.
+<ul>
+<li>Click <strong>Terminate instance</strong> to proceed to delete the virtual server <strong>testserver</strong>.</li>
+</ul>
+</li>
+</ol>
+<p><img src="/images/2-limit-region/0033.png?featherlight=false&amp;width=90pc" alt="CostGovernance"></p>
+<ol start="4">
+<li>Click <strong>Terminate</strong> to confirm.</li>
+<li>Make sure you delete the instance successfully, avoiding unexpected costs.</li>
+</ol>
+<p><img src="/images/2-limit-region/0034.png?featherlight=false&amp;width=90pc" alt="CostGovernance"></p>
+<hr>
+<p>In this step, we have successfully created 1 EC2 instance with instance type <strong>t2.micro</strong> in Region Singapore. In the next section we will try to limit the creation of a specific instance</p>
 
 
 <footer class="footline">
@@ -1288,19 +1322,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1652797705"></script>
-    <script src="/js/perfect-scrollbar.min.js?1652797705"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1652797705"></script>
-    <script src="/js/jquery.sticky.js?1652797705"></script>
-    <script src="/js/featherlight.min.js?1652797705"></script>
-    <script src="/js/highlight.pack.js?1652797705"></script>
+    <script src="/js/clipboard.min.js?1652797965"></script>
+    <script src="/js/perfect-scrollbar.min.js?1652797965"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1652797965"></script>
+    <script src="/js/jquery.sticky.js?1652797965"></script>
+    <script src="/js/featherlight.min.js?1652797965"></script>
+    <script src="/js/highlight.pack.js?1652797965"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1652797705"></script>
-    <script src="/js/learn.js?1652797705"></script>
-    <script src="/js/hugo-learn.js?1652797705"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1652797965"></script>
+    <script src="/js/learn.js?1652797965"></script>
+    <script src="/js/hugo-learn.js?1652797965"></script>
 
-    <link href="/mermaid/mermaid.css?1652797705" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1652797705"></script>
+    <link href="/mermaid/mermaid.css?1652797965" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1652797965"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

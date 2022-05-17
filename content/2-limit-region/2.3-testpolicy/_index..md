@@ -79,12 +79,36 @@ In this step, we have successfully created 1 EC2 instance with instance type **t
 
 
 2. Try setting Key pair or instance type.
-    + You will see that you do not have permission to create EC2 instances in this Region.
+    + You will see that you do not have permission to create EC2 instances on this Region.
 
-  
 ![CostGovernance](/images/2-limit-region/0029.png?featherlight=false&width=90pc)
 
+3. Return to the original Region before performing the next step.
 
-In this step, we have successfully created 1 EC2 instance with instance type **t2.micro** in Region Singapore. In the next section, we will try to restrict the creation of a specific instance type.
+![CostGovernance](/images/2-limit-region/0030.png?featherlight=false&width=90pc)
 
-![CostGovernance](/images/2-limit-region/0027.png?featherlight=false&width=90pc)
+#### Delete the created testserver
+
+1. Check you are in the correct Region initially.
+    + Click **Instances**.
+
+![CostGovernance](/images/2-limit-region/0031.png?featherlight=false&width=90pc)
+
+2. At the list of EC2 instances.
+    + Click to select **testserver**.
+
+![CostGovernance](/images/2-limit-region/0032.png?featherlight=false&width=90pc)
+
+3. Click **Instance state**.
+    + Click **Terminate instance** to proceed to delete the virtual server **testserver**.
+
+![CostGovernance](/images/2-limit-region/0033.png?featherlight=false&width=90pc)
+
+4. Click **Terminate** to confirm.
+5. Make sure you delete the instance successfully, avoiding unexpected costs.
+
+![CostGovernance](/images/2-limit-region/0034.png?featherlight=false&width=90pc)
+
+----
+
+In this step, we have successfully created 1 EC2 instance with instance type **t2.micro** in Region Singapore. In the next section we will try to limit the creation of a specific instance

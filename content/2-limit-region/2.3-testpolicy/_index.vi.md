@@ -12,7 +12,7 @@ pre = "<b>2.3 </b>"
 
 ![CostGovernance](/images/2-limit-region/0017.png?featherlight=false&width=90pc)
 
-2. Click **Log backin**
+2. Click **Log back in**
 
 ![CostGovernance](/images/2-limit-region/0018.png?featherlight=false&width=90pc)
 
@@ -81,7 +81,6 @@ Trong bước này, chúng ta đã tạo thành công 1 EC2 instance với insta
 2. Thử các thao tác thiết lập Key pair hoặc instance type.
     + Bạn sẽ thấy là bạn không có quyền để tạo EC2 instance trên Region này.
 
-  
 ![CostGovernance](/images/2-limit-region/0029.png?featherlight=false&width=90pc)
 
 3. Quay trở về Region ban đầu trước khi thực hiện bước tiếp theo.
@@ -97,6 +96,7 @@ Trong bước này, chúng ta đã tạo thành công 1 EC2 instance với insta
 
 2. Tại danh sách EC2 instance.
     + Click chọn **testserver**.
+
 ![CostGovernance](/images/2-limit-region/0032.png?featherlight=false&width=90pc)
 
 3. Click **Instance state**.
