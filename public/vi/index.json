@@ -4,7 +4,7 @@
 	"title": "Quản trị Chi phí và Sử dụng tài nguyên",
 	"tags": [],
 	"description": "",
-	"content": "Quản trị Chi phí và Sử dụng tài nguyên vối IAM trên AWS Tổng quan Trong bài lab này, chúng ta sẽ dùng dịch vụ IAM ( Identity and Access Management ) để thực hiện một số best practice về quản trị chi phí và việc sử dụng tài nguyên trên môi trường AWS.\n AWS IAM   Nội dung  Chuẩn bị Giới hạn theo Region Giới hạn theo EC2 family Giới hạn theo instance size Giới hạn theo EBS volume type Dọn dẹp tài nguyên  "
+	"content": "Quản trị Chi phí và Sử dụng tài nguyên với IAM trên AWS Tổng quan Trong bài lab này, chúng ta sẽ dùng dịch vụ IAM ( Identity and Access Management ) để thực hiện một số best practice về quản trị chi phí và việc sử dụng tài nguyên trên môi trường AWS.\n AWS IAM   Nội dung  Chuẩn bị Giới hạn theo Region Giới hạn theo EC2 family Giới hạn theo instance size Giới hạn theo EBS volume type Dọn dẹp tài nguyên  "
 },
 {
 	"uri": "/vi/4-limit-size/4.1-createpolicy/",

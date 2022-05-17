@@ -4,7 +4,7 @@ date = 2020-04-18T00:38:32+07:00
 weight = 1 
 chapter = false
 +++
-# Quản trị Chi phí và Sử dụng tài nguyên vối IAM trên AWS
+# Quản trị Chi phí và Sử dụng tài nguyên với IAM trên AWS
 
 #### Tổng quan
 
