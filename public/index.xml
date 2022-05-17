@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cost Management and Resource Usage on Cost Management with IAM</title>
+    <link>/</link>
+    <description>Recent content in Cost Management and Resource Usage on Cost Management with IAM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Apr 2020 00:38:32 +0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Validate policy effectiveness</title>
+      <link>/2-limit-region/2.3-testpolicy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2-limit-region/2.3-testpolicy/</guid>
+      <description>Validate the effectiveness of the policy by creating an EC2 instance in the allowed Region  Click on the name of the currently logged-in user.  Click Sign out.    Click Log back in  At IAM user name enter the user we created (testuser).  At Password enter the password we have set up (Testuser123). Click Sign in.    If you failed to log in, please check the user and password information created in the previous steps.</description>
+    </item>
+    
+  </channel>
+</rss>
