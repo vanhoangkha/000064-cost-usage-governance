@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Limit by Region on Cost Management with IAM</title>
+    <title>Limit by Region on RESOURCE USAGE AND COST MANAGEMENT WITH IAM ON AWS</title>
     <link>/2-limit-region/</link>
-    <description>Recent content in Limit by Region on Cost Management with IAM</description>
+    <description>Recent content in Limit by Region on RESOURCE USAGE AND COST MANAGEMENT WITH IAM ON AWS</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="/2-limit-region/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

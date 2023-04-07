@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Validate policy effectiveness on Cost Management with IAM</title>
+    <title>Validate policy effectiveness on RESOURCE USAGE AND COST MANAGEMENT WITH IAM ON AWS</title>
     <link>/5-limit-vol/5.3-testpolicy/</link>
-    <description>Recent content in Validate policy effectiveness on Cost Management with IAM</description>
+    <description>Recent content in Validate policy effectiveness on RESOURCE USAGE AND COST MANAGEMENT WITH IAM ON AWS</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="/5-limit-vol/5.3-testpolicy/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
