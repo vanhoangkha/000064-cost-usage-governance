@@ -4,16 +4,16 @@
     <title>Cost Management and Resource Usage on RESOURCE USAGE AND COST MANAGEMENT WITH IAM ON AWS</title>
     <link>/</link>
     <description>Recent content in Cost Management and Resource Usage on RESOURCE USAGE AND COST MANAGEMENT WITH IAM ON AWS</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 18 Apr 2020 00:38:32 +0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Validate policy effectiveness</title>
-      <link>/2-limit-region/2.3-testpolicy/</link>
+      <link>/2-limit-region/2.3-testpolicy/_index./</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/2-limit-region/2.3-testpolicy/</guid>
-      <description>Validate the effectiveness of the policy by creating an EC2 instance in the allowed Region  Click on the name of the currently logged-in user.  Click Sign out.    Click Log back in  At IAM user name enter the user we created (testuser).  At Password enter the password we have set up (Testuser123). Click Sign in.    If you failed to log in, please check the user and password information created in the previous steps.</description>
+      <guid>/2-limit-region/2.3-testpolicy/_index./</guid>
+      <description>Validate the effectiveness of the policy by creating an EC2 instance in the allowed Region Click on the name of the currently logged-in user. Click Sign out. Click Log back in At IAM user name enter the user we created (testuser). At Password enter the password we have set up (Testuser123). Click Sign in. If you failed to log in, please check the user and password information created in the previous steps.</description>
     </item>
-    
   </channel>
 </rss>

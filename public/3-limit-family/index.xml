@@ -4,7 +4,9 @@
     <title>Limit by EC2 family on RESOURCE USAGE AND COST MANAGEMENT WITH IAM ON AWS</title>
     <link>/3-limit-family/</link>
     <description>Recent content in Limit by EC2 family on RESOURCE USAGE AND COST MANAGEMENT WITH IAM ON AWS</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 01 Jan 1970 07:33:42 +0700</lastBuildDate><atom:link href="/3-limit-family/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="/3-limit-family/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
